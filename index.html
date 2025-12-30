@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Listeners Lab</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="index.js" defer></script>
 </head>
 <body>
-  <h1>Event Listeners Demo</h1>
+  <h1 id="header">Flatbooks Event Lab</h1>
 
-  <!-- Button to change background -->
   <button id="color-button">Change Background Color</button>
 
-  <!-- Paragraph to show last key pressed -->
-  <p id="key-display">Press any key to see it here.</p>
+  <div>
+    <p id="keyPressDisplay">Press any key...</p>
+  </div>
 
-  <!-- Input field for real-time display -->
-  <input type="text" id="user-input" placeholder="Type something...">
-  <p id="input-display">Your input will appear here.</p>
+  <div>
+    <input type="text" id="textInput" placeholder="Type something..." />
+    <p id="textInputDisplay">Your input will be displayed here.</p>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
